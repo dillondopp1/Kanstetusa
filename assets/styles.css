@@ -154,7 +154,8 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: 8px; line-height
 .poc { margin-top: 32px; padding: 28px; border-radius: var(--radius); background: rgba(255,255,255,.06); border-left: 4px solid var(--red); }
 .poc p { margin: 0; }
 .poc-label { font-family: var(--head); text-transform: uppercase; letter-spacing: .14em; font-size: .9rem; color: #8ea3bf; }
-.poc-name { font-family: var(--head); font-size: 2rem; color: #fff; font-weight: 700; line-height: 1.2; margin-top: 4px !important; }
+.poc-name { font-family: var(--head); font-size: 1.45rem; color: #fff; font-weight: 700; line-height: 1.2; margin-top: 4px !important; }
+.poc-region { display: inline-block; margin-left: 8px; padding: 2px 10px; border-radius: 999px; background: rgba(200,16,46,.22); color: #ffb3bf; font-family: var(--body); font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; vertical-align: middle; }
 .poc-role { color: #b8c5d6; }
 .poc-email { display: inline-block; margin: 14px 0 8px; font-size: 1.25rem; font-weight: 600; color: #fff; text-decoration: none; border-bottom: 2px solid var(--red); }
 .poc-email:hover { color: #ffb3bf; }
@@ -222,6 +223,7 @@ figcaption { font-size: .9rem; color: var(--muted); margin-top: 8px; line-height
   .case-stats { grid-template-columns: 1fr; }
   .case-stats span { display: inline; margin-left: 6px; }
   .case-stats strong { display: inline; font-size: 1.6rem; }
+  .poc-region { display: table; margin: 6px 0 4px; }
   .contact-form { padding: 24px 18px; }
   .contact-form .row { grid-template-columns: 1fr; gap: 0; }
   .hero-cta .btn { flex: 1 1 100%; text-align: center; }
